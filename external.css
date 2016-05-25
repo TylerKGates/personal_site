@@ -15,3 +15,9 @@
     font-size: 16px;
   }
 }
+
+@media (max-width: 482px) {
+  .horizontal {
+    width: 25rem;
+  }
+}

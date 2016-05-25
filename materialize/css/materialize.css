@@ -1,28 +1,28 @@
 #headers {
   background-color: rgba(0,0,0,0.5);
-  margin: 7.5em 15.5em 7.5em 15.5em;
+  /*margin: 7.5em 15.5em 7.5em 15.5em;*/
   border-radius: 25px;
+  width:70%;
+  margin:10px auto;
+  padding:0 10px;
 }
 
 .my-name {
   color: white;
-  margin-top: 2.1em;
+  margin-top: 0em;
   letter-spacing: 5px;
-  white-space: nowrap;
   text-shadow: 6px 6px 7px #ef5350;
 }
 
 .my-position {
   color: white;
   letter-spacing: 5px;
-  white-space: nowrap;
   text-shadow: 4px 4px 6px red;
 }
 
 .my-location {
   color: white;
   letter-spacing: 5px;
-  white-space: nowrap;
   text-shadow: 2px 2px 4px #ef5350;
 }
 
@@ -2905,7 +2905,10 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  min-height: 500px;
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content: center;
 }
 
 .parallax {

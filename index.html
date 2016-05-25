@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>TKG</title>
+    <!-- Importing full style sheet for development  -->
+    <link rel="stylesheet" href="materialize/css/materialize.css" media="screen" title="no title" charset="utf-8">
+    <!-- Importing font-awesome  -->
+    <link rel="stylesheet" href="font-awesome-4.6.2/css/font-awesome.min.css" media="screen" title="no title" charset="utf-8">
+    <!-- Making page know it should be mobile compatible  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Importing DevIcons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/master/devicon.min.css">
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav class="red lighten-1">
+        <div class="nav-wrapper">
+          <!-- <a class="waves-effect waves-light btn modal-trigger brand-logo" href="#modal1">T: {G};</a> -->
+          <a href="#" class="brand-logo">T = {K: "G"};</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="scrollspy"><a href="index.html#about-me">About</a></li>
+            <li class="scrollspy"><a href="index.html#skills">Skills</a></li>
+            <li class="scrollspy"><a href="index.html#portfolio">Portfolio</a></li>
+            <li class="scrollspy"><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+  <div class="parallax-container">
+    <div id="headers" class="responsive-img">
+      <h1 class="my-name center-align shadow-text">TYLER K. GATES</h1>
+      <h2 class="my-position center-align shadow-text">FULL-STACK WEB DEVELOPER</h2>
+      <h4 class="my-location center-align shadow-text">LOCATED IN THE NYC AREA</h4>
+    </div>
+    <div class="parallax"><img src="imgs/parallax.png" class="responsive-img" ></div>
+  </div>
+  <div class="section white" id="about-me">
+    <div class="row container">
+      <h2 class="header center-align my-info">A little about myself</h2>
+      <p class="grey-text text-darken-3 lighten-3">I was born and raised in Brooklyn, NY. I enjoy playing video games (primarily PC games!), cookin' a good steak, reading comics/watching Marvel and DC movies and shows, hanging out with my kitty and my dog <a target="_blank"href="https://www.facebook.com/Mitsuthemiki/?fref=ts">Mitsu.</a> Oh, and I also have a thing for coding. It's amazing to see code transform into beautiful websites, and how it always keeps you on your toes with all the languages to learn.</p>
+    </div>
+  </div>
+
+  <hr></hr>
+  <div class="row container" id="skills">
+    <h2 class="header center-align my-info">Skills I have</h2>
+    <div class="center-align">
+      <h4>Frontend</h4>
+      <i class="devicon-javascript-plain medium"></i>
+      <i class="devicon-react-original-wordmark medium"></i>
+      <i class="devicon-html5-plain-wordmark medium"></i>
+      <i class="devicon-css3-plain-wordmark medium"></i>
+      <i class="devicon-jquery-plain-wordmark medium"></i>
+      <h4>Backend</h4>
+      <i class="devicon-ruby-plain-wordmark medium"></i>
+      <i class="devicon-rails-plain-wordmark medium"></i>
+      <i class="devicon-nodejs-plain-wordmark medium"></i>
+      <i class="devicon-mongodb-plain-wordmark medium"></i>
+      <i class="devicon-postgresql-plain-wordmark medium"></i>
+    </div>
+  </div>
+
+  <hr></hr>
+  <div class="row container center-align" id="portfolio">
+    <h2 class="header center-align my-info">The Works</h2>
+    <div class="col s6">
+      <a target="_blank" href="http://tylerkgates.github.io/blackjack/">
+        <img src="imgs/Blackjack.png" class="images z-depth-3 responsive-img">
+      </a>
+      <p>This is my first project, where I used Vanilla JavaScript to manipulate the DOM to create a simple game of Blackjack.</p>
+      <a target="_blank" href="https://github.com/TylerKGates/project-one/tree/master/finalGame" class="waves-effect waves-light btn red lighten-1">View the code on Github!</a>
+    </div>
+    <div class="col s6">
+      <img src="imgs/League.png" class="images z-depth-3 responsive-img">
+      <p>My second project involved using an external API. I decided to go with Riot Games, to create a League of Legends Champion Database.</p>
+      <a target="_blank" href="https://github.com/TylerKGates/project-two/tree/master/leagueAPI" class="waves-effect waves-light btn red lighten-1">View the code on Github!</a>
+    </div>
+  </div>
+  <div class="row container center-align">
+    <div class="col s6">
+      <a target="_blank" href="http://vybez.herokuapp.com/#/?_k=uw6dcz">
+        <img src="imgs/Vybez.png" class="images z-depth-3 responsive-img">
+      </a>
+      <p>My third project, Vybez, is a full-stack music app. I worked with two awesome people, <a target="_blank" href="http://www.carriestreed.com/">Carrie</a> and <a target="_blank" href="http://www.a-fry.io/">Andy</a>. We made good use of ReactJS for our frontend framework, Express.js as our backend framework, and MongoDB for our database.</p>
+      <a target="_blank" href="https://github.com/andyfry01/project-three" class="waves-effect waves-light btn red lighten-1">View the code on Github!</a>
+    </div>
+    <div class="col s6">
+      <a target="_blank" href="https://mysterious-spire-48740.herokuapp.com/#/?_k=a1ncvb">
+        <img src="imgs/Forum.png" class="images z-depth-3 responsive-img">
+      </a>
+      <p>For my final project, I created a simple full-stack gaming forum. As with my project three, I utilized ReactJS for the frontend. For the backend framework, I used Ruby on Rails as an API; and PostreSQL for my database.</p>
+      <a target="_blank" href="https://github.com/TylerKGates/project-four" class="waves-effect waves-light btn red lighten-1">View the code on Github!</a>
+    </div>
+  </div>
+
+  <hr></hr>
+  <div class="row container center-align" id="contact">
+    <h2 class="header center-align my-info">Contact</h2>
+    <div class="col s12">
+      <a class="contact-info" target="_blank" href="https://www.linkedin.com/in/tylerkgates"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+      <a class="contact-info" target="_blank" href="https://github.com/TylerKGates"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+      <a class="contact-info" href= "mailto:k.tylergates@gmail.com"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a>
+    </div>
+  </div>
+
+  <footer class="page-footer red lighten-1">
+    <div class="footer-copyright red lighten-1 center-align">
+        © 2016 Tyler Gates
+    </div>
+  </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.parallax').parallax();
+        $('.scrollspy').scrollSpy();
+      });
+    </script>
+  </body>
+</html>

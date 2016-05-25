@@ -1,0 +1,17 @@
+@media (max-width: 475px) {
+  .my-phone {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 475px) {
+  .phone-screen {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 475px) {
+  .phone-screen-2 {
+    font-size: 16px;
+  }
+}
